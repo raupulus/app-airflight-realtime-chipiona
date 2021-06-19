@@ -49,7 +49,11 @@
       type="text/css"
     />
 
-    <link rel="stylesheet" href="assets/menu.css" type="text/css" />
+    <style>
+      #app {
+        display: none;
+      }
+    </style>
   </head>
 
   <body>
@@ -273,7 +277,10 @@
                     Vuelo
                   </td>
 
-                  <td id="squawk" class="map-tableinfo-title-squawk">
+                  <td
+                    id="squawk"
+                    class="map-tableinfo-title-squawk display-hidden"
+                  >
                     Squawk
                   </td>
 
@@ -289,7 +296,10 @@
                     Distancia nm
                   </td>
 
-                  <td id="track" class="map-tableinfo-title-track">
+                  <td
+                    id="track"
+                    class="map-tableinfo-title-track display-hidden"
+                  >
                     Trackº
                   </td>
 
@@ -317,11 +327,11 @@
                     />
                   </td>
                   <td>VUELO</td>
-                  <td>SQUAWK</td>
+                  <td class="display-hidden">SQUAWK</td>
                   <td>ALTITUD</td>
                   <td>VELOCIDAD</td>
                   <td>DISTANCIA</td>
-                  <td>TRACK</td>
+                  <td class="display-hidden">TRACK</td>
                   <td>MSGS</td>
                   <td>EDAD</td>
                 </tr>
