@@ -1,5 +1,7 @@
 {
   "name": "app-airflight",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "vue"
 }

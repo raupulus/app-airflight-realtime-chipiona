@@ -1,0 +1,204 @@
+/* MAPA */
+
+.box-map {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 400px;
+  background-color: #aad3df;
+}
+.box-map .map-canvas {
+  margin: 0;
+  width: inherit;
+  height: inherit;
+  background-color: #aad3df;
+}
+
+/* Spinner de carga para el mapa */
+.box-map-loader {
+  position: absolute;
+  margin: 0;
+  height: inherit;
+  left: 50%;
+  background: #aad3df;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+.box-map-loader .spinny {
+  width: 64px;
+  height: 64px;
+  margin-top: 80px;
+}
+.box-map-loader .loader-progress {
+  width: 250px;
+  height: 20px;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  margin: 40px 0 0 -125px;
+}
+
+/* Botones mapa */
+
+.box-buttons {
+  display: flex;
+  flex-flow: row nowrap;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  vertical-align: middle;
+  font-size: x-small;
+  font-family: monospace;
+}
+
+.box-buttons .btn-map {
+  padding: 3px;
+  width: 100%;
+  color: #ffffff;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  background-color: #0056b3;
+  border-left: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-radius: 5px;
+}
+
+.btn-reset-map {
+}
+
+.btn-downto-map {
+}
+
+/* Información y selector de aviones */
+
+.box-information {
+  width: 100%;
+  margin: 0;
+  background-color: #fff;
+}
+
+.special-squawk-warning {
+  position: absolute;
+  bottom: 25px;
+  right: 430px;
+  border: 2px solid red;
+  background-color: #ffffa3;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  padding: 5px;
+  text-align: center;
+}
+
+.update-error {
+  position: absolute;
+  bottom: 25px;
+  left: 25px;
+  border: 2px solid red;
+  background-color: #ffffa3;
+  opacity: 0.75;
+  filter: alpha(opacity=75);
+  padding: 5px;
+  text-align: center;
+}
+
+/* ANTERIORES */
+
+.table-info {
+  width: 100%;
+  font-size: x-small;
+  font-family: monospace;
+}
+
+.vPosition {
+  font-weight: bold;
+  background-color: #d5ffd5;
+}
+.mlat {
+  font-weight: bold;
+  background-color: #d5d5ff;
+}
+.squawk7500 {
+  font-weight: bold;
+  background-color: #ff5555;
+}
+.squawk7600 {
+  font-weight: bold;
+  background-color: #00ffff;
+}
+.squawk7700 {
+  font-weight: bold;
+  background-color: #ffff00;
+}
+.selected {
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #0056b3;
+}
+.plane_table_row {
+  cursor: pointer;
+}
+.display-hidden {
+  display: none;
+}
+
+.infoblock_heading {
+  font-size: larger;
+}
+.infoblock_heading a {
+  text-decoration: none;
+  color: #0056b3;
+  font-size: small;
+}
+.infoblock_body {
+  font-size: small;
+}
+
+#selected_icao,
+.selected-icao {
+  font-size: small;
+}
+.selected-registration {
+  font-size: small;
+}
+.selected-icao-type {
+  font-size: small;
+}
+
+.selected-flag-image {
+  width: 30px;
+  height: 18px;
+}
+
+/* Tabla con aviones */
+.table-info thead {
+  background-color: #0056b3;
+  color: #ffffff;
+  cursor: pointer;
+}
+.table-info thead tr td {
+  height: 30px;
+  text-align: center;
+}
+.table-info tbody tr td {
+  height: 30px;
+  text-align: center;
+}
+
+.plane-table-image {
+  width: 30px;
+  height: 18px;
+}
+/* OTROS */
+
+.dim {
+  opacity: 0.3;
+  filter: alpha(opacity=30); /* For IE8 and earlier */
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.center {
+  text-align: center;
+}
