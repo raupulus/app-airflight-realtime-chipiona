@@ -108,17 +108,17 @@ PageName = "Vuelos en Chipiona";
 ShowFlags = true;
 
 // Path to country flags (can be a relative or absolute URL; include a trailing /)
-FlagPath = "https://api.fryntiz.dev/resources/airflight/flags-tiny/";
+FlagPath = "/resources/airflight/flags-tiny/";
 
 // Set to true to enable the ChartBundle base layers (US coverage only)
 ChartBundleLayers = true;
 
 var urlAircrafts = 'https://api.fryntiz.dev/api/airflight/v1/get/aircrafts/json';
 var urlHistory = 'https://api.fryntiz.dev/api/airflight/v1/get/aircrafts/json';
-var urlFlags = 'https://api.fryntiz.dev/resources/airflight/flags-tiny/';
+var urlFlags = '/resources/airflight/flags-tiny/';
 var urlReceiver = 'https://api.fryntiz.dev/api/airflight/v1/get/receiver/json';
 var urlUpInTheHair = 'https://api.fryntiz.dev/api/airflight/v1/upintheair.json';
-var urlDb = 'https://api.fryntiz.dev/api/airflight/v1/get/db/json';
+var urlDb = '/resources/airflight/db';
 
 
 // Mensajes
@@ -129,8 +129,8 @@ var messageProblemAjax = 'Se está demorando demasiado en sincronizar los vuelos
 var historyTimeToDelete = 600;
 
 // Indica si activo el modo DEBUG
-const DEBUG = true;
+const DEBUG = false;
 
 
-var Dump1090Version = "unknown version";
+var Dump1090Version = "v1";
 var RefreshInterval = 5000;

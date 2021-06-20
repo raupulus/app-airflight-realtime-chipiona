@@ -83,7 +83,7 @@ function db_ajax(bkey) {
         if (_request_count < MAX_REQUESTS) {
                 // just do ajax directly
                 ++_request_count;
-                defer = _request_cache[bkey] = $.ajax({ url: urlDb + '/' + bkey,
+                defer = _request_cache[bkey] = $.ajax({ url: urlDb + '/' + bkey + '.json',
                                                         cache: true,
                                                         timeout: 5000,
                                                         dataType : 'json' });
@@ -106,7 +106,7 @@ function db_ajax_request_complete() {
                 --_request_count;
         } else {
                 req = _request_queue.shift();
-                ajaxreq = $.ajax({ url: urlDb + '/' + req.bkey,
+                ajaxreq = $.ajax({ url: urlDb + '/' + req.bkey + '.json',
                                    cache: true,
                                    timeout: 5000,
                                    dataType : 'json' });
