@@ -1,6 +1,6 @@
 {
-  "name": "app-airflight",
-  "version": "0.0.1",
+  "name": "app-airflight-chipiona",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -46,5 +46,5 @@
     "typescript": "~3.9.3",
     "vue-jest": "^5.0.0-0"
   },
-  "description": "An Ionic project"
+  "description": "Vuelos en tiempo real sobre Chipiona"
 }

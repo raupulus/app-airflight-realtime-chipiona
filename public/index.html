@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
-    <title>Ionic App</title>
+    <title>Vuelos en tiempo real sobre Chipiona</title>
 
     <base href="/" />
 
@@ -22,7 +22,10 @@
 
     <!-- add to homescreen for ios -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-title" content="Ionic App" />
+    <meta
+      name="apple-mobile-web-app-title"
+      content="Vuelos en tiempo real sobre Chipiona"
+    />
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
 
     <link
@@ -417,8 +420,6 @@
     <script type="text/javascript" src="resources/airflight/layers.js"></script>
     <script type="text/javascript" src="resources/airflight/script.js"></script>
 
-    <script type="text/javascript" src="assets/menu.js"></script>
-
     <script>
       document.addEventListener("DOMContentLoaded", () => {
         initialize();
@@ -441,10 +442,8 @@
         let btnsUpTo = document.getElementsByClassName("btn-upto-map");
         Array.from(btnsUpTo).forEach((e) => {
           e.addEventListener("click", () => {
-            let position = e.getBoundingClientRect().top - window.scrollY;
-
             window.scrollTo({
-              top: position,
+              top: 0,
               left: 0,
               behavior: "smooth",
             });
