@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1024"
+   height="1024"
+   viewBox="0 0 128 128"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="logo-airflight-chipiona.svg"
+   inkscape:export-filename="/home/fryntiz/Descargas/logo-airflight-chipiona.png"
+   inkscape:export-xdpi="300"
+   inkscape:export-ydpi="300">
+  <svg:title
+     id="title834">Logotipo Vuelos en Tiempo Real para Chipiona</svg:title>
+  <svg:defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.5377009"
+     inkscape:cx="-282.47522"
+     inkscape:cy="1206.6378"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="false"
+     inkscape:window-width="3840"
+     inkscape:window-height="2064"
+     inkscape:window-x="0"
+     inkscape:window-y="30"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     width="1024mm"
+     units="px">
+    <sodipodi:guide
+       position="59.678859,101.52542"
+       orientation="0,-1"
+       id="guide890" />
+  </sodipodi:namedview>
+  <svg:metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Logotipo Vuelos en Tiempo Real para Chipiona</dc:title>
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/by-sa/4.0/" />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>aviones</rdf:li>
+            <rdf:li>vuelos</rdf:li>
+            <rdf:li>chipiona</rdf:li>
+            <rdf:li>fryntiz</rdf:li>
+            <rdf:li>Raúl Caro Pastorino</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Raúl Caro Pastorino</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:description>Logotipo de la aplicación para vuelos en tiempo real desde chipiona</dc:description>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/by-sa/4.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Notice" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#Attribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+        <cc:requires
+           rdf:resource="http://creativecommons.org/ns#ShareAlike" />
+      </cc:License>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:g
+     inkscape:label="Livello 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-23.480187,-66.98018)">
+    <svg:g
+       id="g850">
+      <svg:rect
+         style="fill:#ffff47;fill-opacity:1;stroke-width:0.70866142;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="rect844"
+         width="11.322043"
+         height="23.505552"
+         x="86.882919"
+         y="85.246719"
+         ry="5.6610217" />
+      <svg:g
+         id="g842"
+         transform="matrix(0.84522396,0,0,0.84522396,11.247067,10.168095)">
+        <svg:path
+           id="rect24"
+           style="fill:#f1ad35;stroke-width:0.83843035;stroke:#000000;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;fill-opacity:1"
+           d="m 95.822997,68.315456 c -11.19259,-0.0039 -15.38305,12.538256 -15.38305,12.538256 v 6.280535 h 2.09015 v 15.487273 h -2.90213 c -2.694756,0 -7.464016,0.10665 -7.476678,3.46213 -0.01266,3.35548 2.976397,3.36228 4.732648,3.38786 2.22089,0.0324 3.99828,0 3.99828,0 l -8.22237,98.43846 -6.519076,5.36229 -5.102827,4.28228 h 69.570506 l -5.44878,-4.19579 -6.17353,-5.44878 -8.22237,-98.43846 c 0,0 2.005,-9.2e-4 3.00423,-0.071 2.76239,-0.19373 5.15884,-0.2596 5.18324,-3.40444 0.0244,-3.14484 -3.23949,-3.37455 -6.93362,-3.37455 h -2.90173 V 87.134247 h 2.09015 v -6.280535 c 0,0 -4.19045,-12.534365 -15.383043,-12.538256 z m -10.87722,19.036317 h 21.754843 c 0,0 -1.1055,3.565792 -0.0893,6.175849 1.33909,3.439364 -0.0893,6.175849 -0.0893,6.175849 0,0 -2.78955,-3.187072 -10.877423,0 -7.297663,2.875689 -10.877421,0 -10.877421,0 0,0 1.262877,-1.516955 0.390486,-5.004539 -0.726128,-2.902859 -0.211905,-7.347159 -0.211905,-7.347159 z"
+           sodipodi:nodetypes="zccccszsccccccccszscccczccscscscc" />
+        <svg:path
+           d="m 48.091627,131.58565 c -6.243807,-0.36475 -20.534494,-1.17234 -26.634895,5.53698 0,0 -0.147295,0.36916 -0.05713,0.51739 4.652262,7.64813 20.147387,8.87811 25.05919,9.65775 -1.904085,17.40546 -6.027403,61.65376 4.066388,62.7986 6.770485,-61.83958 3.250817,0.25638 12.314818,-60.3224 31.278645,0.56426 45.548042,2.58927 66.116942,6.44841 0.66358,-0.0601 1.44622,-0.1121 2.30254,-0.15808 -0.255,8.58009 2.44032,17.62796 6.53323,21.10781 -7.29564,-34.26624 6.47793,-12.68241 7.97773,-21.63738 10.48785,-0.47467 12.48533,-1.20646 12.73255,-3.46235 l 0.10277,-0.93779 c 0.24654,-2.25524 -1.54334,-3.40028 -11.67415,-6.1239 0.48858,-9.09273 -16.87836,12.41194 -5.03697,-20.71608 1.511,-4.22723 -7.43168,8.5951 -9.03503,17.0647 -0.8182,-0.22825 -1.56473,-0.44534 -2.19465,-0.64573 -31.576348,-5.55781 -38.122351,-5.74133 -66.337674,-6.84597 5.912503,-58.68218 -5.730628,-5e-5 1.299343,-61.202339 C 53.20668,71.243025 49.913715,115.01278 48.0917,131.58565 Z"
+           id="path2"
+           style="fill:#c9cdd0;fill-opacity:1;stroke:#000000;stroke-width:1.19398;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           sodipodi:nodetypes="csacccccccsccscccccc" />
+      </svg:g>
+    </svg:g>
+  </svg:g>
+  <style
+     type="text/css"
+     id="igtranslator-color" />
+</svg:svg>
