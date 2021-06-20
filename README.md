@@ -52,24 +52,26 @@ cambios en los estilos CSS
 
 ## Preparar proyecto
 
-Regenerar assets con capacitor
+Añadir plataforma/s
 
 ```bash
-capacitor-resources -p android
+ionic capacitor add android
 ```
 
-Regenerar assets con cordova (instalado como global)
+Preparar proyecto
+
+```bash
+ionic capacitor sync
+```
+
+Regenerar assets con cordova (Hay que tener el paquete instalado global)
 
 ```bash
 cordova-res android --skip-config --copy
 ```
 
-```bash
-ionic build android
-```
-
 Preparar proyecto para producción y abrir **Android Studio**
 
 ```bash
-ionic capacitor build --prod android
+ionic capacitor build android --prod
 ```
