@@ -1,5 +1,5 @@
 {
-  "name": "app-airflight-realtime-chipiona",
+  "name": "Vuelos a tiempo real en Chipiona",
   "integrations": {
     "capacitor": {}
   },

@@ -49,3 +49,27 @@ cambios en los estilos CSS
   mostrar vuelos anteriores hasta un máximo de una hora.
 - Adaptación del proyecto a componentes Vue.js
 - Mejoras en diseño, creación de menú y listado de vuelos en menú lateral deslizante.
+
+## Preparar proyecto
+
+Regenerar assets con capacitor
+
+```bash
+capacitor-resources -p android
+```
+
+Regenerar assets con cordova (instalado como global)
+
+```bash
+cordova-res android --skip-config --copy
+```
+
+```bash
+ionic build android
+```
+
+Preparar proyecto para producción y abrir **Android Studio**
+
+```bash
+ionic capacitor build --prod android
+```
