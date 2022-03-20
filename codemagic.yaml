@@ -13,7 +13,7 @@ workflows:
       vars:
         # Ionic Capacitor Xcode worskspace and scheme
         XCODE_WORKSPACE: "ios/App/App.xcworkspace" # <- Update with your workspace name
-        XCODE_SCHEME: "App" # <- Update with your workspace scheme
+        XCODE_SCHEME: "IonicApp" # <- Update with your workspace scheme
       node: latest
       xcode: latest
       cocoapods: default
