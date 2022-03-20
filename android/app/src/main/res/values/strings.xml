@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Vuelos en Chipiona</string>
+    <string name="title_activity_main">Vuelos en Chipiona</string>
+    <string name="package_name">es.desdechipiona.aviones</string>
+    <string name="custom_url_scheme">es.desdechipiona.aviones</string>
+</resources>

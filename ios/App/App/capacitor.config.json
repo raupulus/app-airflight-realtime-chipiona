@@ -1,0 +1,6 @@
+{
+	"appId": "es.desdechipiona.aviones",
+	"appName": "Vuelos en Chipiona",
+	"webDir": "dist",
+	"bundledWebRuntime": false
+}

@@ -36,7 +36,3 @@ npm-debug.log*
 /resources/ios/splash
 /resources/windows/icon
 /resources/windows/splash
-
-/android
-/ios
-/windows
