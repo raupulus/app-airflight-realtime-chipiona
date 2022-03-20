@@ -38,9 +38,9 @@ workflows:
         script: |
           # npx cap copy # <- use this is you don't need to update native dependencies
           npx cap sync # <- update native dependencies and copy web assets to native project          
-      - name: Set up keychain to be used for code signing using Codemagic CLI 'keychain' command
-        script: |
-                    keychain initialize
+      #- name: Set up keychain to be used for code signing using Codemagic CLI 'keychain' command
+        #script: |
+                    #keychain initialize
       # - name: Set up Provisioning profiles from environment variables (Use with manual code signing)
       #   script: |
       #     PROFILES_HOME="$HOME/Library/MobileDevice/Provisioning Profiles"
@@ -48,13 +48,13 @@ workflows:
       #     PROFILE_PATH="$(mktemp "$PROFILES_HOME"/$(uuidgen).mobileprovision)"
       #     echo ${CM_PROVISIONING_PROFILE} | base64 --decode > "$PROFILE_PATH"
       #     echo "Saved provisioning profile $PROFILE_PATH"
-      - name: Fetch signing files
-        script: |
+      #- name: Fetch signing files
+        #script: |
           # app-store-connect fetch-signing-files "com.nevercode.ncionicapp" --type IOS_APP_STORE --create
-          app-store-connect fetch-signing-files $(xcode-project detect-bundle-id) --type IOS_APP_STORE --create          
-      - name: Add certificates to keychain
-        script: |
-                    keychain add-certificates
+          #app-store-connect fetch-signing-files $(xcode-project detect-bundle-id) --type IOS_APP_STORE --create          
+      #- name: Add certificates to keychain
+        #script: |
+                    #keychain add-certificates
       - name: Increment build number
         script: |
           #!/bin/sh
