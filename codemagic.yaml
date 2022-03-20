@@ -30,7 +30,7 @@ workflows:
                     npm install
       - name: Ionic Build
         script: |
-            ionic build  
+            export NODE_OPTIONS=--openssl-legacy-provider && ionic build  
       - name: Cocoapods installation
         script: |
                     cd ios/App && pod install
