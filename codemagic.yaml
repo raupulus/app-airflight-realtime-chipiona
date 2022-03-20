@@ -13,7 +13,7 @@ workflows:
       vars:
         # Ionic Capacitor Xcode worskspace and scheme
         XCODE_WORKSPACE: "ios/App/App.xcworkspace" # <- Update with your workspace name
-        XCODE_SCHEME: "IonicApp" # <- Update with your workspace scheme
+        XCODE_SCHEME: "App" # <- Update with your workspace scheme
       node: latest
       xcode: latest
       cocoapods: default
@@ -67,7 +67,9 @@ workflows:
                     xcode-project use-profiles
       - name: Build ipa for distribution
         script: |
-                    xcode-project build-ipa --workspace "$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
+            xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+        #script: |
+                    #xcode-project build-ipa --workspace "$XCODE_WORKSPACE" --scheme "$XCODE_SCHEME"
     artifacts:
         - build/ios/ipa/*.ipa
         - /tmp/xcodebuild_logs/*.log
