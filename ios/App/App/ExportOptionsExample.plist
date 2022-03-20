@@ -2,17 +2,48 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	 <key>compileBitcode</key>
-	 <true/>
-	 <key>method</key>
-	 <string>ad-hoc</string>
-	 <key>signingStyle</key>
-	 <string>automatic</string>
-	 <key>stripSwiftSymbols</key>
-	 <true/>
-	 <key>teamID</key>
-	 <string>YourTeamID</string>
-	 <key>thinning</key>
-	 <string>&lt;none&gt;</string>
+<key>items</key>
+<array>
+<dict>
+<key>assets</key>
+<array>
+<dict>
+<key>kind</key>
+<string>software-package</string>
+<key>url</key>
+<string>https://fryntiz.es/app/test.ipa</string>
+</dict>
+<dict>
+<key>kind</key>
+<string>display-image</string>
+<key>needs-shine</key>
+<true/>
+<key>url</key>
+<string>https://fryntiz.es/app/test.png</string>
+</dict>
+<dict>
+<key>kind</key>
+<string>full-size-image</string>
+<key>needs-shine</key>
+<true/>
+<key>url</key>
+<string>https://fryntiz.es/logo.png</string>
+</dict>
+</array>
+<key>metadata</key>
+<dict>
+<key>bundle-identifier</key>
+<string>es.fryntiz</string>
+<key>bundle-version</key>
+<string>1.0</string>
+<key>kind</key>
+<string>software</string>
+<key>title</key>
+<string>Test</string>
+<key>subtitle</key>
+<string>Test</string>
+</dict>
+</dict>
+</array>
 </dict>
 </plist>
