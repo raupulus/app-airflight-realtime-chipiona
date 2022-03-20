@@ -69,15 +69,15 @@ workflows:
         script: |
             ARCHIVE_PATH="$HOME/clone/build/ios/xcarchive/app.xcarchive"
             EXPORT_PATH="$HOME/clone/build/ios/ipa"
-            PLIST='{"compileBitcode":false,"method":"enterprise"}'
-            EXPORT_PLIST=/tmp/${PROJECT}.plist
+            EXPORT_PLIST="$HOME/clone/ios/App/App/ExportOptionsExample.plist"
 
-            mkdir $ARCHIVE_PATH
+            mkdir -p $EXPORT_PATH
 
-            xcodebuild build -archivePath $ARCHIVE_PATH -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" -destination generic/platform=iOS CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
+            cd "${HOME}/clone"
+
+            xcodebuild build -archivePath $ARCHIVE_PATH -configuration AppStoreDistribution archive -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" -destination generic/platform=iOS CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO 
             
-            echo $PLIST | plutil -convert xml1 -o $EXPORT_PLIST -
-            xcodebuild -exportArchive -archivePath $ARCHIVE_PATH -exportPath $EXPORT_PATH -exportOptionsPlist $EXPORT_PLIST
+            xcodebuild -exportArchive -archivePath $ARCHIVE_PATH -exportPath $EXPORT_PATH -exportOptionsPlist $EXPORT_PLIST 
         #script: |
             #xcodebuild -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" -destination generic/platform=iOS build CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
             #xcodebuild build -workspace "$XCODE_WORKSPACE" -scheme "$XCODE_SCHEME" CODE_SIGN_IDENTITY="" CODE_SIGNING_REQUIRED=NO CODE_SIGNING_ALLOWED=NO
