@@ -5,17 +5,20 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "buldOld": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
     "test:e2e": "vue-cli-service test:e2e",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
-    "@capacitor/android": "3.0.1",
-    "@capacitor/app": "1.0.1",
-    "@capacitor/core": "3.0.1",
+    "@capacitor/android": "^3.4.3",
+    "@capacitor/app": "^1.1.1",
+    "@capacitor/core": "^3.4.3",
     "@capacitor/haptics": "1.0.1",
+    "@capacitor/ios": "3.4.3",
     "@capacitor/keyboard": "1.0.1",
     "@capacitor/status-bar": "1.0.1",
+    "@ionic/core": "^6.0.12",
     "@ionic/vue": "^5.4.0",
     "@ionic/vue-router": "^5.4.0",
     "@types/ol": "^6.5.1",
@@ -26,7 +29,7 @@
     "vue-router": "^4.0.0-0"
   },
   "devDependencies": {
-    "@capacitor/cli": "3.0.1",
+    "@capacitor/cli": "^3.4.3",
     "@types/jest": "^24.0.19",
     "@types/jquery": "^3.5.5",
     "@typescript-eslint/eslint-plugin": "^2.33.0",
