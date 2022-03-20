@@ -28,6 +28,9 @@ workflows:
       - name: Install npm dependencies for Ionic project
         script: |
                     npm install
+      - name: Ionic Build
+        script: |
+            ionic build  
       - name: Cocoapods installation
         script: |
                     cd ios/App && pod install
